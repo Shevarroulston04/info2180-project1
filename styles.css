@@ -101,4 +101,109 @@ nav ul li a:hover {
     font-size: 21px;
 }
 
+/* COVID TESTING SECTION */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 50px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testing a.btn {
+    background-color: #48BB78;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* RECENT STORIES */
+.stories {
+    padding: 50px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 20px;
+}
+
+article {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+article img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.article-body h3 {
+    font-size: 18px;
+}
+
+.article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    opacity: 0.9;
+}
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background-color: #4A5568;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
 
