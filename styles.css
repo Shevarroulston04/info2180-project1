@@ -1,4 +1,3 @@
-/* Base Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", sans-serif;
@@ -14,7 +13,6 @@ body {
     margin: auto;
 }
 
-/* HEADER */
 header {
     background-color: white;
     padding: 20px 0;
@@ -45,7 +43,6 @@ nav ul li a:hover {
     color: #5A67D8;
 }
 
-/* HERO SECTION */
 .overview-hero {
     background-color: #E2E8F0;
     padding: 50px 0;
@@ -66,7 +63,6 @@ nav ul li a:hover {
     max-width: 500px;
 }
 
-/* LEARN ABOUT SECTION */
 .learn-about {
     padding: 50px 0;
 }
@@ -101,7 +97,6 @@ nav ul li a:hover {
     font-size: 21px;
 }
 
-/* COVID TESTING SECTION */
 .testing {
     background-color: #4A5568;
     color: white;
@@ -114,10 +109,14 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.testing a.btn {
+.testing-description { 
+    max-width: 70%;
+}
+
+.testing .cta .btn {
     background-color: #48BB78;
     padding: 12px 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     text-decoration: none;
 }
@@ -158,7 +157,6 @@ article img {
     text-decoration: underline;
 }
 
-/* NEWSLETTER */
 .newsletter {
     background-color: #48BB78;
     color: white;
@@ -198,12 +196,10 @@ article img {
     font-weight: bold;
 }
 
-/* FOOTER */
 footer {
     background-color: #4A5568;
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px;
 }
 
